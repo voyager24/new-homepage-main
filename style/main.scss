@@ -1,0 +1,94 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+:root{
+    --primary-color:  hsl(35, 77%, 62%);
+    --secondary-color: hsl(5, 85%, 63%);
+}
+
+body {
+    min-height: 250vh;
+    color: hsl(36, 100%, 99%);
+    font-family: inter, sans-serif;
+}
+
+
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.list a{
+    color:  hsl(236, 13%, 42%);
+}
+.list a:hover {
+    color: var(--secondary-color);
+}
+
+h1 {
+    color: hsl(240, 100%, 5%);
+    font-weight: bolder;
+    font-size: 61px;
+}
+
+p {
+    font-size: 15px;
+    color:hsl(236, 13%, 42%);
+    font-family: inter;
+}
+.btn {
+    background-color: hsl(5, 85%, 63%);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0px;
+    letter-spacing: 2px;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.sidebar {
+    background-color: hsl(240, 100%, 5%);
+}
+.sidebar-header {
+    color: var(--primary-color);
+}
+
+.paragraph {
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+}
+.sub-header {
+    color:hsl(36, 100%, 99%);
+    text-decoration: none;
+}
+
+.sub-header:hover{
+    color: var(--primary-color);
+}
+
+.footer a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 18px;
+    color: black;
+}
+
+.footer h1 {
+    color: var(--secondary-color);
+}
+.footer p {
+    font-size: 15px;
+}
+
+.footer a:hover {
+    color: var(--secondary-color);
+}
